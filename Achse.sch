@@ -1,0 +1,427 @@
+EESchema Schematic File Version 2  date Son 08 Sep 2013 12:13:12 CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BoosterPack
+LIBS:3Axis-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 2 14
+Title ""
+Date "8 sep 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 7950 1700 1450 1700
+U 5224CECE
+F0 "Motor_A" 50
+F1 "Motor.sch" 50
+F2 "IN1" I L 7950 1900 60 
+F3 "IN2" I L 7950 2000 60 
+F4 "VREF" I L 7950 2900 60 
+F5 "VM" I R 9400 1800 60 
+F6 "nFAULT" I L 7950 3200 60 
+F7 "ISEN" I L 7950 3000 60 
+F8 "I0" I L 7950 2100 60 
+F9 "I1" I L 7950 2200 60 
+F10 "I2" I L 7950 2300 60 
+F11 "I3" I L 7950 2400 60 
+F12 "I4" I L 7950 2500 60 
+F13 "DECAY" I L 7950 2600 60 
+F14 "nSLEEP" I L 7950 2700 60 
+F15 "nRESET" I L 7950 2800 60 
+$EndSheet
+$Comp
+L +BATT #PWR01
+U 1 1 5224ED68
+P 9800 1500
+AR Path="/5224BCF1/5224ED68" Ref="#PWR01"  Part="1" 
+AR Path="/52282BFC/5224ED68" Ref="#PWR038"  Part="1" 
+AR Path="/522824C9/5224ED68" Ref="#PWR075"  Part="1" 
+F 0 "#PWR01" H 9800 1450 20  0001 C CNN
+F 1 "+BATT" H 9800 1600 30  0000 C CNN
+	1    9800 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1800 9800 1800
+Wire Wire Line
+	9800 1800 9800 1500
+$Comp
+L GND #PWR02
+U 1 1 5224EDD8
+P 9500 3400
+AR Path="/5224BCF1/5224EDD8" Ref="#PWR02"  Part="1" 
+AR Path="/52282BFC/5224EDD8" Ref="#PWR039"  Part="1" 
+AR Path="/522824C9/5224EDD8" Ref="#PWR076"  Part="1" 
+F 0 "#PWR02" H 9500 3400 30  0001 C CNN
+F 1 "GND" H 9500 3330 30  0001 C CNN
+	1    9500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3300 9500 3300
+Wire Wire Line
+	9500 3300 9500 3400
+Wire Wire Line
+	7500 1900 7950 1900
+Wire Wire Line
+	7500 2000 7950 2000
+Text Label 7500 2900 0    60   ~ 0
+VREF
+Text Label 7500 3000 0    60   ~ 0
+AISEN
+Text Label 7500 3200 0    60   ~ 0
+A_nFAULT
+Wire Wire Line
+	7500 2900 7950 2900
+Wire Wire Line
+	7500 3000 7950 3000
+Wire Wire Line
+	7500 3200 7950 3200
+$Sheet
+S 3700 2650 1750 3000
+U 5225730D
+F0 "CONTROLLER" 50
+F1 "ATXMEGA32A.sch" 50
+F2 "A_I0" I R 5450 2800 60 
+F3 "A_I1" I R 5450 2900 60 
+F4 "A_I2" I R 5450 3000 60 
+F5 "A_I3" I R 5450 3100 60 
+F6 "A_I4" I R 5450 3200 60 
+F7 "B_I0" I R 5450 4300 60 
+F8 "B_I1" I R 5450 4400 60 
+F9 "B_I2" I R 5450 4500 60 
+F10 "B_I3" I R 5450 4600 60 
+F11 "B_I4" I R 5450 4700 60 
+F12 "M1_PWM0" I R 5450 3400 60 
+F13 "M1_PWM1" I R 5450 3500 60 
+F14 "M2_PWM0" I R 5450 4900 60 
+F15 "M2_PWM1" I R 5450 5000 60 
+F16 "A_DECAY" I R 5450 3600 60 
+F17 "A_nFAULT" I R 5450 3700 60 
+F18 "A_nSLEEP" I R 5450 3800 60 
+F19 "A_RESET" I R 5450 3900 60 
+F20 "B_DECAY" I R 5450 5100 60 
+F21 "B_nFAULT" I R 5450 5200 60 
+F22 "B_nSLEEP" I R 5450 5300 60 
+F23 "B_RESET" I R 5450 5400 60 
+F24 "DIR" I L 3700 2800 60 
+F25 "STEP" I L 3700 2900 60 
+F26 "B_ISEN" I R 5450 5500 60 
+F27 "A_ISEN" I R 5450 4000 60 
+F28 "nFault" I L 3700 3100 60 
+F29 "VREF" I R 5450 3300 60 
+F30 "VSEN" I L 3700 5100 60 
+F31 "SYNC" I L 3700 5200 60 
+F32 "RS458_A" I L 3700 3900 60 
+F33 "RS458_B" I L 3700 4000 60 
+F34 "RESET" I L 3700 3200 60 
+$EndSheet
+Text Label 7450 2100 0    60   ~ 0
+A_I0
+Text Label 7450 2200 0    60   ~ 0
+A_I1
+Text Label 7450 2300 0    60   ~ 0
+A_I2
+Text Label 7450 2400 0    60   ~ 0
+A_I3
+Text Label 7450 2500 0    60   ~ 0
+A_I4
+Text Label 7450 2600 0    60   ~ 0
+A_DECAY
+Text Label 7450 2700 0    60   ~ 0
+A_nSLEEP
+Text Label 7450 2800 0    60   ~ 0
+A_nRESET
+Wire Wire Line
+	7450 2100 7950 2100
+Wire Wire Line
+	7450 2200 7950 2200
+Wire Wire Line
+	7450 2300 7950 2300
+Wire Wire Line
+	7450 2400 7950 2400
+Wire Wire Line
+	7450 2500 7950 2500
+Wire Wire Line
+	7450 2600 7950 2600
+Wire Wire Line
+	7450 2700 7950 2700
+Wire Wire Line
+	7450 2800 7950 2800
+Text Label 5700 2800 0    60   ~ 0
+A_I0
+Text Label 5700 2900 0    60   ~ 0
+A_I1
+Text Label 5700 3000 0    60   ~ 0
+A_I2
+Text Label 5700 3100 0    60   ~ 0
+A_I3
+Text Label 5700 3200 0    60   ~ 0
+A_I4
+Text Label 5700 3300 0    60   ~ 0
+VREF
+Text Label 5700 3400 0    60   ~ 0
+PWM1
+Text Label 5700 3500 0    60   ~ 0
+PWM2
+Text Label 5700 3600 0    60   ~ 0
+A_DECAY
+Text Label 5700 3700 0    60   ~ 0
+A_nFAULT
+Text Label 5700 3800 0    60   ~ 0
+A_nSLEEP
+Text Label 5700 3900 0    60   ~ 0
+A_nRESET
+Text Label 5700 4300 0    60   ~ 0
+B_I0
+Text Label 5700 4400 0    60   ~ 0
+B_I1
+Text Label 5700 4500 0    60   ~ 0
+B_I2
+Text Label 5700 4600 0    60   ~ 0
+B_I3
+Text Label 5700 4700 0    60   ~ 0
+B_I4
+Text Label 5700 4900 0    60   ~ 0
+PWM3
+Text Label 5700 5000 0    60   ~ 0
+PWM4
+Text Label 5700 5100 0    60   ~ 0
+B_DECAY
+Text Label 5700 5200 0    60   ~ 0
+B_nFault
+Text Label 5700 5300 0    60   ~ 0
+B_nSLEEP
+Text Label 5700 5400 0    60   ~ 0
+B_nRESET
+Wire Wire Line
+	5450 2800 5700 2800
+Wire Wire Line
+	5450 2900 5700 2900
+Wire Wire Line
+	5450 3000 5700 3000
+Wire Wire Line
+	5450 3100 5700 3100
+Wire Wire Line
+	5450 3200 5700 3200
+Wire Wire Line
+	5450 3300 5700 3300
+Wire Wire Line
+	5450 3400 5700 3400
+Wire Wire Line
+	5450 3500 5700 3500
+Wire Wire Line
+	5450 3600 5700 3600
+Wire Wire Line
+	5450 3700 5700 3700
+Wire Wire Line
+	5450 3800 5700 3800
+Wire Wire Line
+	5450 3900 5700 3900
+Wire Wire Line
+	5450 4300 5700 4300
+Wire Wire Line
+	5450 4400 5700 4400
+Wire Wire Line
+	5450 4500 5700 4500
+Wire Wire Line
+	5450 4600 5700 4600
+Wire Wire Line
+	5450 4700 5700 4700
+Wire Wire Line
+	5450 4900 5700 4900
+Wire Wire Line
+	5450 5000 5700 5000
+Wire Wire Line
+	5450 5100 5700 5100
+Wire Wire Line
+	5450 5200 5700 5200
+Wire Wire Line
+	5450 5300 5700 5300
+Wire Wire Line
+	5450 5400 5700 5400
+Text Label 5700 4000 0    60   ~ 0
+AISEN
+Text Label 5700 5500 0    60   ~ 0
+BISEN
+Wire Wire Line
+	5450 5500 5700 5500
+Wire Wire Line
+	5450 4000 5700 4000
+$Sheet
+S 7950 4200 1450 1700
+U 5225F852
+F0 "Motor_B" 50
+F1 "Motor.sch" 50
+F2 "IN1" I L 7950 4400 60 
+F3 "IN2" I L 7950 4500 60 
+F4 "VREF" I L 7950 5400 60 
+F5 "VM" I R 9400 4300 60 
+F6 "nFAULT" I L 7950 5700 60 
+F7 "ISEN" I L 7950 5500 60 
+F8 "I0" I L 7950 4600 60 
+F9 "I1" I L 7950 4700 60 
+F10 "I2" I L 7950 4800 60 
+F11 "I3" I L 7950 4900 60 
+F12 "I4" I L 7950 5000 60 
+F13 "DECAY" I L 7950 5100 60 
+F14 "nSLEEP" I L 7950 5200 60 
+F15 "nRESET" I L 7950 5300 60 
+$EndSheet
+$Comp
+L +BATT #PWR03
+U 1 1 5225F858
+P 9800 4000
+AR Path="/5224BCF1/5225F858" Ref="#PWR03"  Part="1" 
+AR Path="/52282BFC/5225F858" Ref="#PWR040"  Part="1" 
+AR Path="/522824C9/5225F858" Ref="#PWR077"  Part="1" 
+F 0 "#PWR03" H 9800 3950 20  0001 C CNN
+F 1 "+BATT" H 9800 4100 30  0000 C CNN
+	1    9800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 4300 9800 4300
+Wire Wire Line
+	9800 4300 9800 4000
+$Comp
+L GND #PWR04
+U 1 1 5225F860
+P 9500 5900
+AR Path="/5224BCF1/5225F860" Ref="#PWR04"  Part="1" 
+AR Path="/52282BFC/5225F860" Ref="#PWR041"  Part="1" 
+AR Path="/522824C9/5225F860" Ref="#PWR078"  Part="1" 
+F 0 "#PWR04" H 9500 5900 30  0001 C CNN
+F 1 "GND" H 9500 5830 30  0001 C CNN
+	1    9500 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5800 9500 5800
+Wire Wire Line
+	9500 5800 9500 5900
+Wire Wire Line
+	7500 4400 7950 4400
+Wire Wire Line
+	7500 4500 7950 4500
+Text Label 7500 5400 0    60   ~ 0
+VREF
+Text Label 7500 5500 0    60   ~ 0
+BISEN
+Text Label 7500 5700 0    60   ~ 0
+B_nFAULT
+Wire Wire Line
+	7500 5400 7950 5400
+Wire Wire Line
+	7500 5500 7950 5500
+Wire Wire Line
+	7500 5700 7950 5700
+Text Label 7450 4600 0    60   ~ 0
+B_I0
+Text Label 7450 4700 0    60   ~ 0
+B_I1
+Text Label 7450 4800 0    60   ~ 0
+B_I2
+Text Label 7450 4900 0    60   ~ 0
+B_I3
+Text Label 7450 5000 0    60   ~ 0
+B_I4
+Text Label 7450 5100 0    60   ~ 0
+B_DECAY
+Text Label 7450 5200 0    60   ~ 0
+B_nSLEEP
+Text Label 7450 5300 0    60   ~ 0
+B_nRESET
+Wire Wire Line
+	7450 4600 7950 4600
+Wire Wire Line
+	7450 4700 7950 4700
+Wire Wire Line
+	7450 4800 7950 4800
+Wire Wire Line
+	7450 4900 7950 4900
+Wire Wire Line
+	7450 5000 7950 5000
+Wire Wire Line
+	7450 5100 7950 5100
+Wire Wire Line
+	7450 5200 7950 5200
+Wire Wire Line
+	7450 5300 7950 5300
+Text Label 7500 1900 0    60   ~ 0
+PWM1
+Text Label 7500 2000 0    60   ~ 0
+PWM2
+Wire Wire Line
+	3350 2800 3700 2800
+Wire Wire Line
+	3350 2900 3700 2900
+Text Label 7500 4400 0    60   ~ 0
+PWM3
+Text Label 7500 4500 0    60   ~ 0
+PWM4
+Text Label 3300 3100 2    60   ~ 0
+nFAULT
+Text Label 3300 3200 2    60   ~ 0
+nRESET
+Wire Wire Line
+	2900 3100 3700 3100
+Wire Wire Line
+	2900 3200 3700 3200
+Text HLabel 3350 2800 0    60   Input ~ 0
+DIR
+Text HLabel 3350 2900 0    60   Input ~ 0
+STEP
+Text HLabel 2900 3100 0    60   Input ~ 0
+nFAULT
+Text HLabel 2900 3200 0    60   Input ~ 0
+nRESET
+Text HLabel 3550 3900 0    60   Input ~ 0
+RS458_A
+Text HLabel 3550 4000 0    60   Input ~ 0
+RS458_B
+Wire Wire Line
+	3550 3900 3700 3900
+Wire Wire Line
+	3550 4000 3700 4000
+Text HLabel 3300 5200 0    60   Input ~ 0
+SYNC
+Wire Wire Line
+	3300 5200 3700 5200
+$EndSCHEMATC

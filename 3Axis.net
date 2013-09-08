@@ -1,0 +1,2712 @@
+# EESchema Netlist Version 1.1 created  Son 08 Sep 2013 12:13:17 CEST
+(
+ ( /5224BCF1/5224CECE/5224CEE5 $noname  U1 DRV8842 {Lib=DRV8842}
+  (    1 N-000164 )
+  (    2 N-000165 )
+  (    3 N-000163 )
+  (    4 +BATT )
+  (    5 /X-Achse/Motor_A/OUT1 )
+  (    6 /X-Achse/CONTROLLER/A_ISEN )
+  (    7 /X-Achse/Motor_A/OUT2 )
+  (    8 /X-Achse/Motor_A/OUT2 )
+  (    9 /X-Achse/CONTROLLER/A_ISEN )
+  (   10 /X-Achse/Motor_A/OUT1 )
+  (   11 +BATT )
+  (   12 /X-Achse/CONTROLLER/VREF )
+  (   13 /X-Achse/CONTROLLER/VREF )
+  (   14 GND )
+  (   15 N-000160 )
+  (   16 /X-Achse/CONTROLLER/A_RESET )
+  (   17 /X-Achse/CONTROLLER/A_nSLEEP )
+  (   18 /X-Achse/CONTROLLER/A_nFAULT )
+  (   19 /X-Achse/CONTROLLER/A_DECAY )
+  (   20 /X-Achse/Motor_A/IN2 )
+  (   21 /X-Achse/Motor_A/IN1 )
+  (   22 ? )
+  (   23 /X-Achse/CONTROLLER/A_I0 )
+  (   24 /X-Achse/CONTROLLER/A_I1 )
+  (   25 /X-Achse/CONTROLLER/A_I2 )
+  (   26 /X-Achse/CONTROLLER/A_I3 )
+  (   27 /X-Achse/CONTROLLER/A_I4 )
+  (   28 GND )
+ )
+ ( /5224BCF1/5224CECE/5224CEF4 $noname  C2 C {Lib=C}
+  (    1 N-000160 )
+  (    2 GND )
+ )
+ ( /5224BCF1/5224CECE/5224D2F8 $noname  R1 R {Lib=R}
+  (    1 /X-Achse/CONTROLLER/VREF )
+  (    2 /X-Achse/CONTROLLER/VREF )
+ )
+ ( /5224BCF1/5224CECE/5224D307 $noname  C1 C {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VREF )
+  (    2 GND )
+ )
+ ( /5224BCF1/5224CECE/5224D40D $noname  C6 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5224CECE/5224D41C $noname  C7 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5224CECE/5224D5C4 $noname  C3 C {Lib=C}
+  (    1 N-000163 )
+  (    2 +BATT )
+ )
+ ( /5224BCF1/5224CECE/5224D655 $noname  C4 C {Lib=C}
+  (    1 N-000165 )
+  (    2 N-000164 )
+ )
+ ( /5224BCF1/5224CECE/5224D6F0 $noname  R2 R {Lib=R}
+  (    1 /X-Achse/CONTROLLER/A_ISEN )
+  (    2 GND )
+ )
+ ( /5224BCF1/5224CECE/5224D89A $noname  C5 C {Lib=C}
+  (    1 /X-Achse/CONTROLLER/A_ISEN )
+  (    2 GND )
+ )
+ ( /5224BCF1/5224CECE/5224DCBC $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 /X-Achse/Motor_A/OUT1 )
+  (    2 /X-Achse/Motor_A/OUT2 )
+ )
+ ( /5224BCF1/5225730D/52259191 $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000182 )
+  (    2 N-000183 )
+ )
+ ( /5224BCF1/5225730D/5225920E $noname  C9 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000183 )
+ )
+ ( /5224BCF1/5225730D/5225921D $noname  C10 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000182 )
+ )
+ ( /5224BCF1/5225730D/52261B22 $noname  C11 10u {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/52261B31 $noname  C12 100n {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/52261B4A $noname  C13 100n {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/52261B59 $noname  C14 100n {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/52261B80 $noname  L1 10uH {Lib=INDUCTOR_SMALL}
+  (    1 +3.3V )
+  (    2 /X-Achse/CONTROLLER/VBAT )
+ )
+ ( /5224BCF1/5225730D/52261B99 $noname  L2 Ferrit_Bead {Lib=INDUCTOR_SMALL}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 /X-Achse/CONTROLLER/VDDA )
+ )
+ ( /5224BCF1/5225730D/52261D80 $noname  C15 10u {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VDDA )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/52261D8F $noname  C16 100n {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VDDA )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/522622DC $noname  C8 100n {Lib=C}
+  (    1 /X-Achse/CONTROLLER/nRESET )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/522622EB $noname  R5 10k {Lib=R}
+  (    1 +3.3V )
+  (    2 /X-Achse/CONTROLLER/nRESET )
+ )
+ ( /5224BCF1/5225730D/522ACB3F LQFP64  U6 STM32F051RX {Lib=STM32F051RX}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 /X-Achse/SYNC )
+  (    3 /X-Achse/CONTROLLER/DIR1 )
+  (    4 /X-Achse/CONTROLLER/DIR2 )
+  (    5 N-000183 )
+  (    6 N-000182 )
+  (    7 /X-Achse/CONTROLLER/nRESET )
+  (    8 /X-Achse/CONTROLLER/A_ISEN )
+  (    9 /X-Achse/CONTROLLER/B_ISEN )
+  (   10 ? )
+  (   11 ? )
+  (   12 GND )
+  (   13 /X-Achse/CONTROLLER/VDDA )
+  (   14 /X-Achse/CONTROLLER/ENC1_A )
+  (   15 /X-Achse/CONTROLLER/ENC1_B )
+  (   16 /X-Achse/CONTROLLER/A_DECAY )
+  (   17 /X-Achse/CONTROLLER/A_nFAULT )
+  (   18 /X-Achse/CONTROLLER/A_nSLEEP )
+  (   19 /X-Achse/CONTROLLER/A_RESET )
+  (   20 /X-Achse/CONTROLLER/VREF )
+  (   21 /X-Achse/CONTROLLER/A_I4 )
+  (   22 /X-Achse/CONTROLLER/A_I3 )
+  (   23 /X-Achse/CONTROLLER/A_I2 )
+  (   24 /X-Achse/CONTROLLER/A_I1 )
+  (   25 /X-Achse/CONTROLLER/A_I0 )
+  (   26 /X-Achse/CONTROLLER/B_I4 )
+  (   27 /X-Achse/CONTROLLER/B_I3 )
+  (   28 /X-Achse/CONTROLLER/B_I2 )
+  (   29 /X-Achse/CONTROLLER/B_I1 )
+  (   30 /X-Achse/CONTROLLER/B_I0 )
+  (   31 GND )
+  (   32 /X-Achse/CONTROLLER/VBAT )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 /X-Achse/CONTROLLER/ENC2_A )
+  (   38 /X-Achse/CONTROLLER/ENC2_B )
+  (   39 /X-Achse/DIR )
+  (   40 /X-Achse/STEP )
+  (   41 /X-Achse/Motor_A/IN1 )
+  (   42 /X-Achse/Motor_A/IN2 )
+  (   43 /X-Achse/Motor_B/IN1 )
+  (   44 /X-Achse/Motor_B/IN2 )
+  (   45 /X-Achse/CONTROLLER/RS458_DE )
+  (   46 /X-Achse/CONTROLLER/SWDAT )
+  (   47 ? )
+  (   48 ? )
+  (   49 /X-Achse/CONTROLLER/SWCLK )
+  (   50 ? )
+  (   51 /X-Achse/CONTROLLER/B_DECAY )
+  (   52 /X-Achse/CONTROLLER/B_nFAULT )
+  (   53 /X-Achse/CONTROLLER/B_nSLEEP )
+  (   54 /X-Achse/CONTROLLER/B_RESET )
+  (   55 ? )
+  (   56 ? )
+  (   57 ? )
+  (   58 /X-Achse/CONTROLLER/RS458_TX )
+  (   59 /X-Achse/CONTROLLER/RS458_RX )
+  (   60 ? )
+  (   61 /X-Achse/nRESET )
+  (   62 /X-Achse/nFAULT )
+  (   63 GND )
+  (   64 /X-Achse/CONTROLLER/VBAT )
+ )
+ ( /5224BCF1/5225730D/522AF601 $noname  U2 SN65HVD7X {Lib=SN65HVD7X}
+  (    1 N-000170 )
+  (    2 /X-Achse/CONTROLLER/RS458_DE )
+  (    3 /X-Achse/CONTROLLER/RS458_DE )
+  (    4 /X-Achse/CONTROLLER/RS458_TX )
+  (    5 GND )
+  (    6 /X-Achse/RS458_B )
+  (    7 /X-Achse/RS458_A )
+  (    8 +3.3V )
+ )
+ ( /5224BCF1/5225730D/522B00A6 $noname  R3 10k {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000170 )
+ )
+ ( /5224BCF1/5225730D/522B00B5 $noname  R4 10k {Lib=R}
+  (    1 /X-Achse/CONTROLLER/RS458_DE )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225730D/522B030D $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 /X-Achse/CONTROLLER/SWCLK )
+  (    2 /X-Achse/CONTROLLER/SWDAT )
+  (    3 /X-Achse/CONTROLLER/nRESET )
+  (    4 GND )
+ )
+ ( /5224BCF1/5225730D/522B15A5 $noname  U5 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 +3.3V )
+  (    2 N-000170 )
+  (    3 ? )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 /X-Achse/CONTROLLER/RS458_RX )
+  (    8 /X-Achse/CONTROLLER/VBAT )
+ )
+ ( /5224BCF1/5225730D/522B1AB2 $noname  U7 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 /X-Achse/SYNC )
+  (    3 /X-Achse/nRESET )
+  (    4 GND )
+  (    5 GND )
+  (    6 /X-Achse/nRESET )
+  (    7 /X-Achse/SYNC )
+  (    8 +3.3V )
+ )
+ ( /5224BCF1/5225730D/522B1AC1 $noname  U8 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 /X-Achse/CONTROLLER/VBAT )
+  (    2 /X-Achse/STEP )
+  (    3 /X-Achse/DIR )
+  (    4 GND )
+  (    5 GND )
+  (    6 /X-Achse/DIR )
+  (    7 /X-Achse/STEP )
+  (    8 +3.3V )
+ )
+ ( /5224BCF1/5225730D/522B798E $noname  U3 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 N-000187 )
+  (    2 N-000197 )
+  (    3 N-000196 )
+  (    4 GND )
+  (    5 /X-Achse/CONTROLLER/DIR1 )
+  (    6 /X-Achse/CONTROLLER/ENC1_B )
+  (    7 /X-Achse/CONTROLLER/ENC1_A )
+  (    8 /X-Achse/CONTROLLER/VBAT )
+ )
+ ( /5224BCF1/5225730D/522B799D $noname  U4 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 N-000188 )
+  (    2 N-000194 )
+  (    3 N-000195 )
+  (    4 GND )
+  (    5 /X-Achse/CONTROLLER/DIR2 )
+  (    6 /X-Achse/CONTROLLER/ENC2_B )
+  (    7 /X-Achse/CONTROLLER/ENC2_A )
+  (    8 /X-Achse/CONTROLLER/VBAT )
+ )
+ ( /5224BCF1/5225730D/522B8297 $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000196 )
+  (    3 N-000197 )
+  (    4 N-000187 )
+ )
+ ( /5224BCF1/5225730D/522B82A6 $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000195 )
+  (    3 N-000194 )
+  (    4 N-000188 )
+ )
+ ( /5224BCF1/5225F852/5224CEE5 $noname  U9 DRV8842 {Lib=DRV8842}
+  (    1 N-000204 )
+  (    2 N-000203 )
+  (    3 N-000205 )
+  (    4 +BATT )
+  (    5 /X-Achse/Motor_B/OUT1 )
+  (    6 /X-Achse/CONTROLLER/B_ISEN )
+  (    7 /X-Achse/Motor_B/OUT2 )
+  (    8 /X-Achse/Motor_B/OUT2 )
+  (    9 /X-Achse/CONTROLLER/B_ISEN )
+  (   10 /X-Achse/Motor_B/OUT1 )
+  (   11 +BATT )
+  (   12 /X-Achse/CONTROLLER/VREF )
+  (   13 /X-Achse/CONTROLLER/VREF )
+  (   14 GND )
+  (   15 N-000202 )
+  (   16 /X-Achse/CONTROLLER/B_RESET )
+  (   17 /X-Achse/CONTROLLER/B_nSLEEP )
+  (   18 /X-Achse/CONTROLLER/B_nFAULT )
+  (   19 /X-Achse/CONTROLLER/B_DECAY )
+  (   20 /X-Achse/Motor_B/IN2 )
+  (   21 /X-Achse/Motor_B/IN1 )
+  (   22 ? )
+  (   23 /X-Achse/CONTROLLER/B_I0 )
+  (   24 /X-Achse/CONTROLLER/B_I1 )
+  (   25 /X-Achse/CONTROLLER/B_I2 )
+  (   26 /X-Achse/CONTROLLER/B_I3 )
+  (   27 /X-Achse/CONTROLLER/B_I4 )
+  (   28 GND )
+ )
+ ( /5224BCF1/5225F852/5224CEF4 $noname  C18 C {Lib=C}
+  (    1 N-000202 )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225F852/5224D2F8 $noname  R6 R {Lib=R}
+  (    1 /X-Achse/CONTROLLER/VREF )
+  (    2 /X-Achse/CONTROLLER/VREF )
+ )
+ ( /5224BCF1/5225F852/5224D307 $noname  C17 C {Lib=C}
+  (    1 /X-Achse/CONTROLLER/VREF )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225F852/5224D40D $noname  C22 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225F852/5224D41C $noname  C23 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225F852/5224D5C4 $noname  C19 C {Lib=C}
+  (    1 N-000205 )
+  (    2 +BATT )
+ )
+ ( /5224BCF1/5225F852/5224D655 $noname  C20 C {Lib=C}
+  (    1 N-000203 )
+  (    2 N-000204 )
+ )
+ ( /5224BCF1/5225F852/5224D6F0 $noname  R7 R {Lib=R}
+  (    1 /X-Achse/CONTROLLER/B_ISEN )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225F852/5224D89A $noname  C21 C {Lib=C}
+  (    1 /X-Achse/CONTROLLER/B_ISEN )
+  (    2 GND )
+ )
+ ( /5224BCF1/5225F852/5224DCBC $noname  P5 CONN_2 {Lib=CONN_2}
+  (    1 /X-Achse/Motor_B/OUT1 )
+  (    2 /X-Achse/Motor_B/OUT2 )
+ )
+ ( /52282BFC/5224CECE/5224CEE5 $noname  U10 DRV8842 {Lib=DRV8842}
+  (    1 N-000260 )
+  (    2 N-000261 )
+  (    3 N-000262 )
+  (    4 +BATT )
+  (    5 /Z-Achse/Motor_A/OUT1 )
+  (    6 /Z-Achse/CONTROLLER/A_ISEN )
+  (    7 /Z-Achse/Motor_A/OUT2 )
+  (    8 /Z-Achse/Motor_A/OUT2 )
+  (    9 /Z-Achse/CONTROLLER/A_ISEN )
+  (   10 /Z-Achse/Motor_A/OUT1 )
+  (   11 +BATT )
+  (   12 /Z-Achse/CONTROLLER/VREF )
+  (   13 /Z-Achse/CONTROLLER/VREF )
+  (   14 GND )
+  (   15 N-000259 )
+  (   16 /Z-Achse/CONTROLLER/A_RESET )
+  (   17 /Z-Achse/CONTROLLER/A_nSLEEP )
+  (   18 /Z-Achse/CONTROLLER/A_nFAULT )
+  (   19 /Z-Achse/CONTROLLER/A_DECAY )
+  (   20 /Z-Achse/Motor_A/IN2 )
+  (   21 /Z-Achse/Motor_A/IN1 )
+  (   22 ? )
+  (   23 /Z-Achse/CONTROLLER/A_I0 )
+  (   24 /Z-Achse/CONTROLLER/A_I1 )
+  (   25 /Z-Achse/CONTROLLER/A_I2 )
+  (   26 /Z-Achse/CONTROLLER/A_I3 )
+  (   27 /Z-Achse/CONTROLLER/A_I4 )
+  (   28 GND )
+ )
+ ( /52282BFC/5224CECE/5224CEF4 $noname  C25 C {Lib=C}
+  (    1 N-000259 )
+  (    2 GND )
+ )
+ ( /52282BFC/5224CECE/5224D2F8 $noname  R8 R {Lib=R}
+  (    1 /Z-Achse/CONTROLLER/VREF )
+  (    2 /Z-Achse/CONTROLLER/VREF )
+ )
+ ( /52282BFC/5224CECE/5224D307 $noname  C24 C {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VREF )
+  (    2 GND )
+ )
+ ( /52282BFC/5224CECE/5224D40D $noname  C29 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /52282BFC/5224CECE/5224D41C $noname  C30 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /52282BFC/5224CECE/5224D5C4 $noname  C26 C {Lib=C}
+  (    1 N-000262 )
+  (    2 +BATT )
+ )
+ ( /52282BFC/5224CECE/5224D655 $noname  C27 C {Lib=C}
+  (    1 N-000261 )
+  (    2 N-000260 )
+ )
+ ( /52282BFC/5224CECE/5224D6F0 $noname  R9 R {Lib=R}
+  (    1 /Z-Achse/CONTROLLER/A_ISEN )
+  (    2 GND )
+ )
+ ( /52282BFC/5224CECE/5224D89A $noname  C28 C {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/A_ISEN )
+  (    2 GND )
+ )
+ ( /52282BFC/5224CECE/5224DCBC $noname  P6 CONN_2 {Lib=CONN_2}
+  (    1 /Z-Achse/Motor_A/OUT1 )
+  (    2 /Z-Achse/Motor_A/OUT2 )
+ )
+ ( /52282BFC/5225730D/52259191 $noname  X2 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000274 )
+  (    2 N-000270 )
+ )
+ ( /52282BFC/5225730D/5225920E $noname  C32 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000270 )
+ )
+ ( /52282BFC/5225730D/5225921D $noname  C33 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000274 )
+ )
+ ( /52282BFC/5225730D/52261B22 $noname  C34 10u {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/52261B31 $noname  C35 100n {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/52261B4A $noname  C36 100n {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/52261B59 $noname  C37 100n {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/52261B80 $noname  L3 10uH {Lib=INDUCTOR_SMALL}
+  (    1 +3.3V )
+  (    2 /Z-Achse/CONTROLLER/VBAT )
+ )
+ ( /52282BFC/5225730D/52261B99 $noname  L4 Ferrit_Bead {Lib=INDUCTOR_SMALL}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 /Z-Achse/CONTROLLER/VDDA )
+ )
+ ( /52282BFC/5225730D/52261D80 $noname  C38 10u {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VDDA )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/52261D8F $noname  C39 100n {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VDDA )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/522622DC $noname  C31 100n {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/nRESET )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/522622EB $noname  R12 10k {Lib=R}
+  (    1 +3.3V )
+  (    2 /Z-Achse/CONTROLLER/nRESET )
+ )
+ ( /52282BFC/5225730D/522ACB3F LQFP64  U15 STM32F051RX {Lib=STM32F051RX}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 /Z-Achse/SYNC )
+  (    3 /Z-Achse/CONTROLLER/DIR1 )
+  (    4 /Z-Achse/CONTROLLER/DIR2 )
+  (    5 N-000270 )
+  (    6 N-000274 )
+  (    7 /Z-Achse/CONTROLLER/nRESET )
+  (    8 /Z-Achse/CONTROLLER/A_ISEN )
+  (    9 /Z-Achse/CONTROLLER/B_ISEN )
+  (   10 ? )
+  (   11 ? )
+  (   12 GND )
+  (   13 /Z-Achse/CONTROLLER/VDDA )
+  (   14 /Z-Achse/CONTROLLER/ENC1_A )
+  (   15 /Z-Achse/CONTROLLER/ENC1_B )
+  (   16 /Z-Achse/CONTROLLER/A_DECAY )
+  (   17 /Z-Achse/CONTROLLER/A_nFAULT )
+  (   18 /Z-Achse/CONTROLLER/A_nSLEEP )
+  (   19 /Z-Achse/CONTROLLER/A_RESET )
+  (   20 /Z-Achse/CONTROLLER/VREF )
+  (   21 /Z-Achse/CONTROLLER/A_I4 )
+  (   22 /Z-Achse/CONTROLLER/A_I3 )
+  (   23 /Z-Achse/CONTROLLER/A_I2 )
+  (   24 /Z-Achse/CONTROLLER/A_I1 )
+  (   25 /Z-Achse/CONTROLLER/A_I0 )
+  (   26 /Z-Achse/CONTROLLER/B_I4 )
+  (   27 /Z-Achse/CONTROLLER/B_I3 )
+  (   28 /Z-Achse/CONTROLLER/B_I2 )
+  (   29 /Z-Achse/CONTROLLER/B_I1 )
+  (   30 /Z-Achse/CONTROLLER/B_I0 )
+  (   31 GND )
+  (   32 /Z-Achse/CONTROLLER/VBAT )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 /Z-Achse/CONTROLLER/ENC2_A )
+  (   38 /Z-Achse/CONTROLLER/ENC2_B )
+  (   39 /Z-Achse/DIR )
+  (   40 /Z-Achse/STEP )
+  (   41 /Z-Achse/Motor_A/IN1 )
+  (   42 /Z-Achse/Motor_A/IN2 )
+  (   43 /Z-Achse/Motor_B/IN1 )
+  (   44 /Z-Achse/Motor_B/IN2 )
+  (   45 /Z-Achse/CONTROLLER/RS458_DE )
+  (   46 /Z-Achse/CONTROLLER/SWDAT )
+  (   47 ? )
+  (   48 ? )
+  (   49 /Z-Achse/CONTROLLER/SWCLK )
+  (   50 ? )
+  (   51 /Z-Achse/CONTROLLER/B_DECAY )
+  (   52 /Z-Achse/CONTROLLER/B_nFAULT )
+  (   53 /Z-Achse/CONTROLLER/B_nSLEEP )
+  (   54 /Z-Achse/CONTROLLER/B_RESET )
+  (   55 ? )
+  (   56 ? )
+  (   57 ? )
+  (   58 /Z-Achse/CONTROLLER/RS458_TX )
+  (   59 /Z-Achse/CONTROLLER/RS458_RX )
+  (   60 ? )
+  (   61 /Z-Achse/nRESET )
+  (   62 /Z-Achse/nFAULT )
+  (   63 GND )
+  (   64 /Z-Achse/CONTROLLER/VBAT )
+ )
+ ( /52282BFC/5225730D/522AF601 $noname  U11 SN65HVD7X {Lib=SN65HVD7X}
+  (    1 N-000298 )
+  (    2 /Z-Achse/CONTROLLER/RS458_DE )
+  (    3 /Z-Achse/CONTROLLER/RS458_DE )
+  (    4 /Z-Achse/CONTROLLER/RS458_TX )
+  (    5 GND )
+  (    6 /X-Achse/RS458_B )
+  (    7 /X-Achse/RS458_A )
+  (    8 +3.3V )
+ )
+ ( /52282BFC/5225730D/522B00A6 $noname  R10 10k {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000298 )
+ )
+ ( /52282BFC/5225730D/522B00B5 $noname  R11 10k {Lib=R}
+  (    1 /Z-Achse/CONTROLLER/RS458_DE )
+  (    2 GND )
+ )
+ ( /52282BFC/5225730D/522B030D $noname  P9 CONN_4 {Lib=CONN_4}
+  (    1 /Z-Achse/CONTROLLER/SWCLK )
+  (    2 /Z-Achse/CONTROLLER/SWDAT )
+  (    3 /Z-Achse/CONTROLLER/nRESET )
+  (    4 GND )
+ )
+ ( /52282BFC/5225730D/522B15A5 $noname  U14 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 +3.3V )
+  (    2 N-000298 )
+  (    3 ? )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 /Z-Achse/CONTROLLER/RS458_RX )
+  (    8 /Z-Achse/CONTROLLER/VBAT )
+ )
+ ( /52282BFC/5225730D/522B1AB2 $noname  U16 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 /Z-Achse/SYNC )
+  (    3 /Z-Achse/nRESET )
+  (    4 GND )
+  (    5 GND )
+  (    6 /Z-Achse/nRESET )
+  (    7 /Z-Achse/SYNC )
+  (    8 +3.3V )
+ )
+ ( /52282BFC/5225730D/522B1AC1 $noname  U17 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 /Z-Achse/CONTROLLER/VBAT )
+  (    2 /Z-Achse/STEP )
+  (    3 /Z-Achse/DIR )
+  (    4 GND )
+  (    5 GND )
+  (    6 /Z-Achse/DIR )
+  (    7 /Z-Achse/STEP )
+  (    8 +3.3V )
+ )
+ ( /52282BFC/5225730D/522B798E $noname  U12 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 N-000277 )
+  (    2 N-000276 )
+  (    3 N-000275 )
+  (    4 GND )
+  (    5 /Z-Achse/CONTROLLER/DIR1 )
+  (    6 /Z-Achse/CONTROLLER/ENC1_B )
+  (    7 /Z-Achse/CONTROLLER/ENC1_A )
+  (    8 /Z-Achse/CONTROLLER/VBAT )
+ )
+ ( /52282BFC/5225730D/522B799D $noname  U13 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 N-000278 )
+  (    2 N-000284 )
+  (    3 N-000283 )
+  (    4 GND )
+  (    5 /Z-Achse/CONTROLLER/DIR2 )
+  (    6 /Z-Achse/CONTROLLER/ENC2_B )
+  (    7 /Z-Achse/CONTROLLER/ENC2_A )
+  (    8 /Z-Achse/CONTROLLER/VBAT )
+ )
+ ( /52282BFC/5225730D/522B8297 $noname  P7 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000275 )
+  (    3 N-000276 )
+  (    4 N-000277 )
+ )
+ ( /52282BFC/5225730D/522B82A6 $noname  P8 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000283 )
+  (    3 N-000284 )
+  (    4 N-000278 )
+ )
+ ( /52282BFC/5225F852/5224CEE5 $noname  U18 DRV8842 {Lib=DRV8842}
+  (    1 N-000306 )
+  (    2 N-000303 )
+  (    3 N-000302 )
+  (    4 +BATT )
+  (    5 /Z-Achse/Motor_B/OUT1 )
+  (    6 /Z-Achse/CONTROLLER/B_ISEN )
+  (    7 /Z-Achse/Motor_B/OUT2 )
+  (    8 /Z-Achse/Motor_B/OUT2 )
+  (    9 /Z-Achse/CONTROLLER/B_ISEN )
+  (   10 /Z-Achse/Motor_B/OUT1 )
+  (   11 +BATT )
+  (   12 /Z-Achse/CONTROLLER/VREF )
+  (   13 /Z-Achse/CONTROLLER/VREF )
+  (   14 GND )
+  (   15 N-000307 )
+  (   16 /Z-Achse/CONTROLLER/B_RESET )
+  (   17 /Z-Achse/CONTROLLER/B_nSLEEP )
+  (   18 /Z-Achse/CONTROLLER/B_nFAULT )
+  (   19 /Z-Achse/CONTROLLER/B_DECAY )
+  (   20 /Z-Achse/Motor_B/IN2 )
+  (   21 /Z-Achse/Motor_B/IN1 )
+  (   22 ? )
+  (   23 /Z-Achse/CONTROLLER/B_I0 )
+  (   24 /Z-Achse/CONTROLLER/B_I1 )
+  (   25 /Z-Achse/CONTROLLER/B_I2 )
+  (   26 /Z-Achse/CONTROLLER/B_I3 )
+  (   27 /Z-Achse/CONTROLLER/B_I4 )
+  (   28 GND )
+ )
+ ( /52282BFC/5225F852/5224CEF4 $noname  C41 C {Lib=C}
+  (    1 N-000307 )
+  (    2 GND )
+ )
+ ( /52282BFC/5225F852/5224D2F8 $noname  R13 R {Lib=R}
+  (    1 /Z-Achse/CONTROLLER/VREF )
+  (    2 /Z-Achse/CONTROLLER/VREF )
+ )
+ ( /52282BFC/5225F852/5224D307 $noname  C40 C {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/VREF )
+  (    2 GND )
+ )
+ ( /52282BFC/5225F852/5224D40D $noname  C45 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /52282BFC/5225F852/5224D41C $noname  C46 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /52282BFC/5225F852/5224D5C4 $noname  C42 C {Lib=C}
+  (    1 N-000302 )
+  (    2 +BATT )
+ )
+ ( /52282BFC/5225F852/5224D655 $noname  C43 C {Lib=C}
+  (    1 N-000303 )
+  (    2 N-000306 )
+ )
+ ( /52282BFC/5225F852/5224D6F0 $noname  R14 R {Lib=R}
+  (    1 /Z-Achse/CONTROLLER/B_ISEN )
+  (    2 GND )
+ )
+ ( /52282BFC/5225F852/5224D89A $noname  C44 C {Lib=C}
+  (    1 /Z-Achse/CONTROLLER/B_ISEN )
+  (    2 GND )
+ )
+ ( /52282BFC/5225F852/5224DCBC $noname  P10 CONN_2 {Lib=CONN_2}
+  (    1 /Z-Achse/Motor_B/OUT1 )
+  (    2 /Z-Achse/Motor_B/OUT2 )
+ )
+ ( /522824C9/5224CECE/5224CEE5 $noname  U19 DRV8842 {Lib=DRV8842}
+  (    1 N-000215 )
+  (    2 N-000211 )
+  (    3 N-000214 )
+  (    4 +BATT )
+  (    5 /Y-Achse/Motor_A/OUT1 )
+  (    6 /Y-Achse/CONTROLLER/A_ISEN )
+  (    7 /Y-Achse/Motor_A/OUT2 )
+  (    8 /Y-Achse/Motor_A/OUT2 )
+  (    9 /Y-Achse/CONTROLLER/A_ISEN )
+  (   10 /Y-Achse/Motor_A/OUT1 )
+  (   11 +BATT )
+  (   12 /Y-Achse/CONTROLLER/VREF )
+  (   13 /Y-Achse/CONTROLLER/VREF )
+  (   14 GND )
+  (   15 N-000212 )
+  (   16 /Y-Achse/CONTROLLER/A_RESET )
+  (   17 /Y-Achse/CONTROLLER/A_nSLEEP )
+  (   18 /Y-Achse/CONTROLLER/A_nFAULT )
+  (   19 /Y-Achse/CONTROLLER/A_DECAY )
+  (   20 /Y-Achse/Motor_A/IN2 )
+  (   21 /Y-Achse/Motor_A/IN1 )
+  (   22 ? )
+  (   23 /Y-Achse/CONTROLLER/A_I0 )
+  (   24 /Y-Achse/CONTROLLER/A_I1 )
+  (   25 /Y-Achse/CONTROLLER/A_I2 )
+  (   26 /Y-Achse/CONTROLLER/A_I3 )
+  (   27 /Y-Achse/CONTROLLER/A_I4 )
+  (   28 GND )
+ )
+ ( /522824C9/5224CECE/5224CEF4 $noname  C48 C {Lib=C}
+  (    1 N-000212 )
+  (    2 GND )
+ )
+ ( /522824C9/5224CECE/5224D2F8 $noname  R15 R {Lib=R}
+  (    1 /Y-Achse/CONTROLLER/VREF )
+  (    2 /Y-Achse/CONTROLLER/VREF )
+ )
+ ( /522824C9/5224CECE/5224D307 $noname  C47 C {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VREF )
+  (    2 GND )
+ )
+ ( /522824C9/5224CECE/5224D40D $noname  C52 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /522824C9/5224CECE/5224D41C $noname  C53 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /522824C9/5224CECE/5224D5C4 $noname  C49 C {Lib=C}
+  (    1 N-000214 )
+  (    2 +BATT )
+ )
+ ( /522824C9/5224CECE/5224D655 $noname  C50 C {Lib=C}
+  (    1 N-000211 )
+  (    2 N-000215 )
+ )
+ ( /522824C9/5224CECE/5224D6F0 $noname  R16 R {Lib=R}
+  (    1 /Y-Achse/CONTROLLER/A_ISEN )
+  (    2 GND )
+ )
+ ( /522824C9/5224CECE/5224D89A $noname  C51 C {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/A_ISEN )
+  (    2 GND )
+ )
+ ( /522824C9/5224CECE/5224DCBC $noname  P11 CONN_2 {Lib=CONN_2}
+  (    1 /Y-Achse/Motor_A/OUT1 )
+  (    2 /Y-Achse/Motor_A/OUT2 )
+ )
+ ( /522824C9/5225730D/52259191 $noname  X3 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000250 )
+  (    2 N-000251 )
+ )
+ ( /522824C9/5225730D/5225920E $noname  C55 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000251 )
+ )
+ ( /522824C9/5225730D/5225921D $noname  C56 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000250 )
+ )
+ ( /522824C9/5225730D/52261B22 $noname  C57 10u {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/52261B31 $noname  C58 100n {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/52261B4A $noname  C59 100n {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/52261B59 $noname  C60 100n {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/52261B80 $noname  L5 10uH {Lib=INDUCTOR_SMALL}
+  (    1 +3.3V )
+  (    2 /Y-Achse/CONTROLLER/VBAT )
+ )
+ ( /522824C9/5225730D/52261B99 $noname  L6 Ferrit_Bead {Lib=INDUCTOR_SMALL}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 /Y-Achse/CONTROLLER/VDDA )
+ )
+ ( /522824C9/5225730D/52261D80 $noname  C61 10u {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VDDA )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/52261D8F $noname  C62 100n {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VDDA )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/522622DC $noname  C54 100n {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/nRESET )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/522622EB $noname  R19 10k {Lib=R}
+  (    1 +3.3V )
+  (    2 /Y-Achse/CONTROLLER/nRESET )
+ )
+ ( /522824C9/5225730D/522ACB3F LQFP64  U24 STM32F051RX {Lib=STM32F051RX}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 /Y-Achse/SYNC )
+  (    3 /Y-Achse/CONTROLLER/DIR1 )
+  (    4 /Y-Achse/CONTROLLER/DIR2 )
+  (    5 N-000251 )
+  (    6 N-000250 )
+  (    7 /Y-Achse/CONTROLLER/nRESET )
+  (    8 /Y-Achse/CONTROLLER/A_ISEN )
+  (    9 /Y-Achse/CONTROLLER/B_ISEN )
+  (   10 ? )
+  (   11 ? )
+  (   12 GND )
+  (   13 /Y-Achse/CONTROLLER/VDDA )
+  (   14 /Y-Achse/CONTROLLER/ENC1_A )
+  (   15 /Y-Achse/CONTROLLER/ENC1_B )
+  (   16 /Y-Achse/CONTROLLER/A_DECAY )
+  (   17 /Y-Achse/CONTROLLER/A_nFAULT )
+  (   18 /Y-Achse/CONTROLLER/A_nSLEEP )
+  (   19 /Y-Achse/CONTROLLER/A_RESET )
+  (   20 /Y-Achse/CONTROLLER/VREF )
+  (   21 /Y-Achse/CONTROLLER/A_I4 )
+  (   22 /Y-Achse/CONTROLLER/A_I3 )
+  (   23 /Y-Achse/CONTROLLER/A_I2 )
+  (   24 /Y-Achse/CONTROLLER/A_I1 )
+  (   25 /Y-Achse/CONTROLLER/A_I0 )
+  (   26 /Y-Achse/CONTROLLER/B_I4 )
+  (   27 /Y-Achse/CONTROLLER/B_I3 )
+  (   28 /Y-Achse/CONTROLLER/B_I2 )
+  (   29 /Y-Achse/CONTROLLER/B_I1 )
+  (   30 /Y-Achse/CONTROLLER/B_I0 )
+  (   31 GND )
+  (   32 /Y-Achse/CONTROLLER/VBAT )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 /Y-Achse/CONTROLLER/ENC2_A )
+  (   38 /Y-Achse/CONTROLLER/ENC2_B )
+  (   39 /Y-Achse/DIR )
+  (   40 /Y-Achse/STEP )
+  (   41 /Y-Achse/Motor_A/IN1 )
+  (   42 /Y-Achse/Motor_A/IN2 )
+  (   43 /Y-Achse/Motor_B/IN1 )
+  (   44 /Y-Achse/Motor_B/IN2 )
+  (   45 /Y-Achse/CONTROLLER/RS458_DE )
+  (   46 /Y-Achse/CONTROLLER/SWDAT )
+  (   47 ? )
+  (   48 ? )
+  (   49 /Y-Achse/CONTROLLER/SWCLK )
+  (   50 ? )
+  (   51 /Y-Achse/CONTROLLER/B_DECAY )
+  (   52 /Y-Achse/CONTROLLER/B_nFAULT )
+  (   53 /Y-Achse/CONTROLLER/B_nSLEEP )
+  (   54 /Y-Achse/CONTROLLER/B_RESET )
+  (   55 ? )
+  (   56 ? )
+  (   57 ? )
+  (   58 /Y-Achse/CONTROLLER/RS458_TX )
+  (   59 /Y-Achse/CONTROLLER/RS458_RX )
+  (   60 ? )
+  (   61 /Y-Achse/nRESET )
+  (   62 /Y-Achse/nFAULT )
+  (   63 GND )
+  (   64 /Y-Achse/CONTROLLER/VBAT )
+ )
+ ( /522824C9/5225730D/522AF601 $noname  U20 SN65HVD7X {Lib=SN65HVD7X}
+  (    1 N-000246 )
+  (    2 /Y-Achse/CONTROLLER/RS458_DE )
+  (    3 /Y-Achse/CONTROLLER/RS458_DE )
+  (    4 /Y-Achse/CONTROLLER/RS458_TX )
+  (    5 GND )
+  (    6 /X-Achse/RS458_B )
+  (    7 /X-Achse/RS458_A )
+  (    8 +3.3V )
+ )
+ ( /522824C9/5225730D/522B00A6 $noname  R17 10k {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000246 )
+ )
+ ( /522824C9/5225730D/522B00B5 $noname  R18 10k {Lib=R}
+  (    1 /Y-Achse/CONTROLLER/RS458_DE )
+  (    2 GND )
+ )
+ ( /522824C9/5225730D/522B030D $noname  P14 CONN_4 {Lib=CONN_4}
+  (    1 /Y-Achse/CONTROLLER/SWCLK )
+  (    2 /Y-Achse/CONTROLLER/SWDAT )
+  (    3 /Y-Achse/CONTROLLER/nRESET )
+  (    4 GND )
+ )
+ ( /522824C9/5225730D/522B15A5 $noname  U23 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 +3.3V )
+  (    2 N-000246 )
+  (    3 ? )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 /Y-Achse/CONTROLLER/RS458_RX )
+  (    8 /Y-Achse/CONTROLLER/VBAT )
+ )
+ ( /522824C9/5225730D/522B1AB2 $noname  U25 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 /Y-Achse/SYNC )
+  (    3 /Y-Achse/nRESET )
+  (    4 GND )
+  (    5 GND )
+  (    6 /Y-Achse/nRESET )
+  (    7 /Y-Achse/SYNC )
+  (    8 +3.3V )
+ )
+ ( /522824C9/5225730D/522B1AC1 $noname  U26 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 /Y-Achse/CONTROLLER/VBAT )
+  (    2 /Y-Achse/STEP )
+  (    3 /Y-Achse/DIR )
+  (    4 GND )
+  (    5 GND )
+  (    6 /Y-Achse/DIR )
+  (    7 /Y-Achse/STEP )
+  (    8 +3.3V )
+ )
+ ( /522824C9/5225730D/522B798E $noname  U21 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 N-000236 )
+  (    2 N-000237 )
+  (    3 N-000238 )
+  (    4 GND )
+  (    5 /Y-Achse/CONTROLLER/DIR1 )
+  (    6 /Y-Achse/CONTROLLER/ENC1_B )
+  (    7 /Y-Achse/CONTROLLER/ENC1_A )
+  (    8 /Y-Achse/CONTROLLER/VBAT )
+ )
+ ( /522824C9/5225730D/522B799D $noname  U22 SN74LVC2T45 {Lib=SN74LVC2T45}
+  (    1 N-000239 )
+  (    2 N-000245 )
+  (    3 N-000244 )
+  (    4 GND )
+  (    5 /Y-Achse/CONTROLLER/DIR2 )
+  (    6 /Y-Achse/CONTROLLER/ENC2_B )
+  (    7 /Y-Achse/CONTROLLER/ENC2_A )
+  (    8 /Y-Achse/CONTROLLER/VBAT )
+ )
+ ( /522824C9/5225730D/522B8297 $noname  P12 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000238 )
+  (    3 N-000237 )
+  (    4 N-000236 )
+ )
+ ( /522824C9/5225730D/522B82A6 $noname  P13 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000244 )
+  (    3 N-000245 )
+  (    4 N-000239 )
+ )
+ ( /522824C9/5225F852/5224CEE5 $noname  U27 DRV8842 {Lib=DRV8842}
+  (    1 N-000253 )
+  (    2 N-000252 )
+  (    3 N-000255 )
+  (    4 +BATT )
+  (    5 /Y-Achse/Motor_B/OUT1 )
+  (    6 /Y-Achse/CONTROLLER/B_ISEN )
+  (    7 /Y-Achse/Motor_B/OUT2 )
+  (    8 /Y-Achse/Motor_B/OUT2 )
+  (    9 /Y-Achse/CONTROLLER/B_ISEN )
+  (   10 /Y-Achse/Motor_B/OUT1 )
+  (   11 +BATT )
+  (   12 /Y-Achse/CONTROLLER/VREF )
+  (   13 /Y-Achse/CONTROLLER/VREF )
+  (   14 GND )
+  (   15 N-000254 )
+  (   16 /Y-Achse/CONTROLLER/B_RESET )
+  (   17 /Y-Achse/CONTROLLER/B_nSLEEP )
+  (   18 /Y-Achse/CONTROLLER/B_nFAULT )
+  (   19 /Y-Achse/CONTROLLER/B_DECAY )
+  (   20 /Y-Achse/Motor_B/IN2 )
+  (   21 /Y-Achse/Motor_B/IN1 )
+  (   22 ? )
+  (   23 /Y-Achse/CONTROLLER/B_I0 )
+  (   24 /Y-Achse/CONTROLLER/B_I1 )
+  (   25 /Y-Achse/CONTROLLER/B_I2 )
+  (   26 /Y-Achse/CONTROLLER/B_I3 )
+  (   27 /Y-Achse/CONTROLLER/B_I4 )
+  (   28 GND )
+ )
+ ( /522824C9/5225F852/5224CEF4 $noname  C64 C {Lib=C}
+  (    1 N-000254 )
+  (    2 GND )
+ )
+ ( /522824C9/5225F852/5224D2F8 $noname  R20 R {Lib=R}
+  (    1 /Y-Achse/CONTROLLER/VREF )
+  (    2 /Y-Achse/CONTROLLER/VREF )
+ )
+ ( /522824C9/5225F852/5224D307 $noname  C63 C {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/VREF )
+  (    2 GND )
+ )
+ ( /522824C9/5225F852/5224D40D $noname  C68 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /522824C9/5225F852/5224D41C $noname  C69 C {Lib=C}
+  (    1 +BATT )
+  (    2 GND )
+ )
+ ( /522824C9/5225F852/5224D5C4 $noname  C65 C {Lib=C}
+  (    1 N-000255 )
+  (    2 +BATT )
+ )
+ ( /522824C9/5225F852/5224D655 $noname  C66 C {Lib=C}
+  (    1 N-000252 )
+  (    2 N-000253 )
+ )
+ ( /522824C9/5225F852/5224D6F0 $noname  R21 R {Lib=R}
+  (    1 /Y-Achse/CONTROLLER/B_ISEN )
+  (    2 GND )
+ )
+ ( /522824C9/5225F852/5224D89A $noname  C67 C {Lib=C}
+  (    1 /Y-Achse/CONTROLLER/B_ISEN )
+  (    2 GND )
+ )
+ ( /522824C9/5225F852/5224DCBC $noname  P15 CONN_2 {Lib=CONN_2}
+  (    1 /Y-Achse/Motor_B/OUT1 )
+  (    2 /Y-Achse/Motor_B/OUT2 )
+ )
+ ( /522C237F/522B6D12 $noname  U32 SN74HCT139 {Lib=SN74HCT139}
+  (    1 /Sheet522C237E/SPI1_NSS )
+  (    2 /Sheet522C237E/DIO8 )
+  (    3 /Sheet522C237E/DIO9 )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+  (   16 +3.3V )
+ )
+ ( /522C237F/522C23C6 $noname  U33 STM32F0D {Lib=STM32F0D}
+  (    1 +3.3V )
+  (    2 GND )
+  (    3 ? )
+  (    4 /Sheet522C237E/DIO2 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 GND )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 /Sheet522C237E/TIM2_CH2 )
+  (   17 /Sheet522C237E/USART2_TX )
+  (   18 /Sheet522C237E/USART2_RX )
+  (   19 /Sheet522C237E/DIO4 )
+  (   20 /Sheet522C237E/DIO5 )
+  (   21 ? )
+  (   22 /X-Achse/nRESET )
+  (   23 /X-Achse/nFAULT )
+  (   24 /Y-Achse/nRESET )
+  (   25 /Y-Achse/nFAULT )
+  (   26 /Z-Achse/nRESET )
+  (   27 /Z-Achse/nFAULT )
+  (   28 /Sheet522C237E/DIO0 )
+  (   29 /Sheet522C237E/DIO1 )
+  (   30 /Sheet522C237E/DIO8 )
+  (   31 /Sheet522C237E/DIO9 )
+  (   32 ? )
+  (   33 GND )
+  (   34 GND )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 /Sheet522C237E/TIM3_CH2 )
+  (   39 /Sheet522C237E/TIM3_CH1 )
+  (   40 ? )
+  (   41 ? )
+  (   42 /Sheet522C237E/TIM1_CH1 )
+  (   43 /X-Achse/STEP )
+  (   44 /Y-Achse/STEP )
+  (   45 /Z-Achse/STEP )
+  (   46 ? )
+  (   47 ? )
+  (   48 /Sheet522C237E/DIO7 )
+  (   49 /Sheet522C237E/DIO6 )
+  (   50 ? )
+  (   51 /Sheet522C237E/SPI1_NSS )
+  (   52 /X-Achse/DIR )
+  (   53 /Y-Achse/DIR )
+  (   54 /Z-Achse/DIR )
+  (   55 /Sheet522C237E/DIO3 )
+  (   56 /Sheet522C237E/SPI1_SCK )
+  (   57 /Sheet522C237E/SPI1_MISO )
+  (   58 /Sheet522C237E/SPI1_MOSI )
+  (   59 ? )
+  (   60 ? )
+  (   61 ? )
+  (   62 ? )
+  (   63 /Sheet522C237E/I2C1_SCL )
+  (   64 /Sheet522C237E/I2C1_SDA )
+  (   65 GND )
+  (   66 +5V )
+ )
+ ( /522C237F/522C462C $noname  U28 MICROBUS {Lib=MICROBUS}
+  (    1 ? )
+  (    2 /Sheet522C237E/DIO1 )
+  (    3 ? )
+  (    4 /Sheet522C237E/SPI1_SCK )
+  (    5 /Sheet522C237E/SPI1_MISO )
+  (    6 /Sheet522C237E/SPI1_MOSI )
+  (    7 +3.3V )
+  (    8 GND )
+  (    9 GND )
+  (   10 +5V )
+  (   11 /Sheet522C237E/I2C1_SDA )
+  (   12 /Sheet522C237E/I2C1_SCL )
+  (   13 /Sheet522C237E/USART2_TX )
+  (   14 /Sheet522C237E/USART2_RX )
+  (   15 /Sheet522C237E/DIO0 )
+  (   16 /Sheet522C237E/TIM1_CH1 )
+ )
+ ( /522C237F/522C4654 $noname  U29 MICROBUS {Lib=MICROBUS}
+  (    1 ? )
+  (    2 /Sheet522C237E/DIO3 )
+  (    3 ? )
+  (    4 /Sheet522C237E/SPI1_SCK )
+  (    5 /Sheet522C237E/SPI1_MISO )
+  (    6 /Sheet522C237E/SPI1_MOSI )
+  (    7 +3.3V )
+  (    8 GND )
+  (    9 GND )
+  (   10 +5V )
+  (   11 /Sheet522C237E/I2C1_SDA )
+  (   12 /Sheet522C237E/I2C1_SCL )
+  (   13 /Sheet522C237E/USART2_TX )
+  (   14 /Sheet522C237E/USART2_RX )
+  (   15 /Sheet522C237E/DIO2 )
+  (   16 /Sheet522C237E/TIM2_CH2 )
+ )
+ ( /522C237F/522C4663 $noname  U30 MICROBUS {Lib=MICROBUS}
+  (    1 ? )
+  (    2 /Sheet522C237E/DIO5 )
+  (    3 ? )
+  (    4 /Sheet522C237E/SPI1_SCK )
+  (    5 /Sheet522C237E/SPI1_MISO )
+  (    6 /Sheet522C237E/SPI1_MOSI )
+  (    7 +3.3V )
+  (    8 GND )
+  (    9 GND )
+  (   10 +5V )
+  (   11 /Sheet522C237E/I2C1_SDA )
+  (   12 /Sheet522C237E/I2C1_SCL )
+  (   13 /Sheet522C237E/USART2_TX )
+  (   14 /Sheet522C237E/USART2_RX )
+  (   15 /Sheet522C237E/DIO4 )
+  (   16 /Sheet522C237E/TIM3_CH2 )
+ )
+ ( /522C237F/522C4672 $noname  U31 MICROBUS {Lib=MICROBUS}
+  (    1 ? )
+  (    2 /Sheet522C237E/DIO7 )
+  (    3 ? )
+  (    4 /Sheet522C237E/SPI1_SCK )
+  (    5 /Sheet522C237E/SPI1_MISO )
+  (    6 /Sheet522C237E/SPI1_MOSI )
+  (    7 +3.3V )
+  (    8 GND )
+  (    9 GND )
+  (   10 +5V )
+  (   11 /Sheet522C237E/I2C1_SDA )
+  (   12 /Sheet522C237E/I2C1_SCL )
+  (   13 /Sheet522C237E/USART2_TX )
+  (   14 /Sheet522C237E/USART2_RX )
+  (   15 /Sheet522C237E/DIO6 )
+  (   16 /Sheet522C237E/TIM3_CH1 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C45
+ SM*
+ C?
+ C1-1
+$endlist
+$component C46
+ SM*
+ C?
+ C1-1
+$endlist
+$component C42
+ SM*
+ C?
+ C1-1
+$endlist
+$component C43
+ SM*
+ C?
+ C1-1
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C44
+ SM*
+ C?
+ C1-1
+$endlist
+$component C48
+ SM*
+ C?
+ C1-1
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C47
+ SM*
+ C?
+ C1-1
+$endlist
+$component C52
+ SM*
+ C?
+ C1-1
+$endlist
+$component C53
+ SM*
+ C?
+ C1-1
+$endlist
+$component C49
+ SM*
+ C?
+ C1-1
+$endlist
+$component C50
+ SM*
+ C?
+ C1-1
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C51
+ SM*
+ C?
+ C1-1
+$endlist
+$component C55
+ SM*
+ C?
+ C1-1
+$endlist
+$component C56
+ SM*
+ C?
+ C1-1
+$endlist
+$component C57
+ SM*
+ C?
+ C1-1
+$endlist
+$component C58
+ SM*
+ C?
+ C1-1
+$endlist
+$component C59
+ SM*
+ C?
+ C1-1
+$endlist
+$component C60
+ SM*
+ C?
+ C1-1
+$endlist
+$component C61
+ SM*
+ C?
+ C1-1
+$endlist
+$component C62
+ SM*
+ C?
+ C1-1
+$endlist
+$component C54
+ SM*
+ C?
+ C1-1
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C64
+ SM*
+ C?
+ C1-1
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C63
+ SM*
+ C?
+ C1-1
+$endlist
+$component C68
+ SM*
+ C?
+ C1-1
+$endlist
+$component C69
+ SM*
+ C?
+ C1-1
+$endlist
+$component C65
+ SM*
+ C?
+ C1-1
+$endlist
+$component C66
+ SM*
+ C?
+ C1-1
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C67
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/Y-Achse/nFAULT" "nFAULT"
+ U24 62
+ U33 25
+Net 2 "/Z-Achse/nRESET" "nRESET"
+ U33 26
+ U16 3
+ U16 6
+ U15 61
+Net 3 "/X-Achse/SYNC" "SYNC"
+ U7 2
+ U7 7
+ U6 2
+Net 4 "/X-Achse/RS458_A" "RS458_A"
+ U11 7
+ U2 7
+ U20 7
+Net 5 "/X-Achse/nFAULT" "nFAULT"
+ U33 23
+ U6 62
+Net 6 "/Y-Achse/STEP" "STEP"
+ U33 44
+ U24 40
+ U26 7
+ U26 2
+Net 7 "/Y-Achse/SYNC" "SYNC"
+ U25 2
+ U25 7
+ U24 2
+Net 8 "/X-Achse/DIR" "DIR"
+ U8 6
+ U8 3
+ U33 52
+ U6 39
+Net 9 "/Y-Achse/nRESET" "nRESET"
+ U25 6
+ U24 61
+ U25 3
+ U33 24
+Net 10 "/Z-Achse/DIR" "DIR"
+ U17 3
+ U33 54
+ U15 39
+ U17 6
+Net 11 "/Z-Achse/STEP" "STEP"
+ U17 2
+ U17 7
+ U33 45
+ U15 40
+Net 12 "/X-Achse/nRESET" "nRESET"
+ U6 61
+ U7 3
+ U33 22
+ U7 6
+Net 13 "/Y-Achse/DIR" "DIR"
+ U33 53
+ U26 3
+ U26 6
+ U24 39
+Net 14 "/X-Achse/STEP" "STEP"
+ U8 7
+ U8 2
+ U33 43
+ U6 40
+Net 15 "/Z-Achse/nFAULT" "nFAULT"
+ U33 27
+ U15 62
+Net 16 "/X-Achse/RS458_B" "RS458_B"
+ U2 6
+ U11 6
+ U20 6
+Net 17 "/Z-Achse/SYNC" "SYNC"
+ U16 7
+ U16 2
+ U15 2
+Net 18 "/X-Achse/CONTROLLER/B_nFAULT" "B_nFAULT"
+ U9 18
+ U6 52
+Net 19 "/X-Achse/CONTROLLER/A_ISEN" "A_ISEN"
+ C5 1
+ R2 1
+ U1 6
+ U6 8
+ U1 9
+Net 20 "/X-Achse/CONTROLLER/B_ISEN" "B_ISEN"
+ U6 9
+ C21 1
+ U9 9
+ R7 1
+ U9 6
+Net 21 "/X-Achse/CONTROLLER/B_RESET" "B_RESET"
+ U6 54
+ U9 16
+Net 22 "/X-Achse/CONTROLLER/B_nSLEEP" "B_nSLEEP"
+ U9 17
+ U6 53
+Net 23 "/X-Achse/CONTROLLER/B_I3" "B_I3"
+ U9 26
+ U6 27
+Net 24 "/X-Achse/CONTROLLER/B_I4" "B_I4"
+ U9 27
+ U6 26
+Net 25 "+BATT" "+BATT"
+ C65 2
+ U27 4
+ U9 4
+ U1 11
+ C6 1
+ C7 1
+ C3 2
+ U1 4
+ U19 4
+ U19 11
+ C49 2
+ C52 1
+ C53 1
+ U9 11
+ C22 1
+ C23 1
+ C19 2
+ C46 1
+ C26 2
+ C30 1
+ U18 11
+ C29 1
+ U27 11
+ C42 2
+ C68 1
+ C69 1
+ U18 4
+ C45 1
+ U10 11
+ U10 4
+Net 26 "/X-Achse/CONTROLLER/B_DECAY" "B_DECAY"
+ U6 51
+ U9 19
+Net 27 "/X-Achse/CONTROLLER/A_I0" "A_I0"
+ U1 23
+ U6 25
+Net 28 "/X-Achse/CONTROLLER/A_I1" "A_I1"
+ U1 24
+ U6 24
+Net 29 "/X-Achse/CONTROLLER/A_I2" "A_I2"
+ U6 23
+ U1 25
+Net 30 "/X-Achse/CONTROLLER/A_I3" "A_I3"
+ U1 26
+ U6 22
+Net 31 "/X-Achse/CONTROLLER/A_I4" "A_I4"
+ U6 21
+ U1 27
+Net 32 "/X-Achse/CONTROLLER/A_DECAY" "A_DECAY"
+ U6 16
+ U1 19
+Net 33 "/X-Achse/CONTROLLER/A_nSLEEP" "A_nSLEEP"
+ U6 18
+ U1 17
+Net 34 "/X-Achse/CONTROLLER/A_RESET" "A_RESET"
+ U6 19
+ U1 16
+Net 35 "/X-Achse/Motor_A/IN2" "IN2"
+ U6 42
+ U1 20
+Net 36 "/X-Achse/Motor_B/IN1" "IN1"
+ U9 21
+ U6 43
+Net 37 "/X-Achse/Motor_B/IN2" "IN2"
+ U9 20
+ U6 44
+Net 38 "GND" "GND"
+ C12 2
+ C11 2
+ C13 2
+ C14 2
+ R4 2
+ C46 2
+ P4 4
+ C45 2
+ U11 5
+ R11 2
+ C40 2
+ U18 14
+ U5 6
+ U18 28
+ P2 1
+ U2 5
+ U5 4
+ U7 5
+ U7 4
+ C41 2
+ U5 5
+ U6 12
+ U6 31
+ C8 2
+ R14 2
+ U6 63
+ C44 2
+ C10 1
+ C9 1
+ C16 2
+ U4 4
+ P3 1
+ C15 2
+ U8 5
+ U8 4
+ U3 4
+ U26 4
+ P12 1
+ P13 1
+ C25 2
+ U26 5
+ C30 2
+ C28 2
+ U21 4
+ U22 4
+ C39 2
+ C38 2
+ U15 12
+ U15 31
+ C33 1
+ C32 1
+ C37 2
+ C36 2
+ R9 2
+ U25 5
+ U25 4
+ C31 2
+ C62 2
+ C61 2
+ C60 2
+ C69 2
+ R21 2
+ C68 2
+ C67 2
+ C59 2
+ U27 28
+ U27 14
+ C63 2
+ C64 2
+ U23 5
+ U23 6
+ U10 14
+ U23 4
+ U10 28
+ C56 1
+ C58 2
+ C57 2
+ C54 2
+ C55 1
+ C29 2
+ C24 2
+ C17 2
+ U9 14
+ U9 28
+ C18 2
+ C21 2
+ C51 2
+ C47 2
+ C52 2
+ U13 4
+ U12 4
+ C53 2
+ U14 6
+ U14 5
+ U15 63
+ P9 4
+ C22 2
+ C23 2
+ R16 2
+ R7 2
+ U14 4
+ U20 5
+ U24 63
+ U24 12
+ C35 2
+ C34 2
+ U24 31
+ U16 5
+ U16 4
+ P8 1
+ P7 1
+ U19 28
+ C48 2
+ U19 14
+ R18 2
+ P14 4
+ U17 5
+ U17 4
+ C5 2
+ U1 28
+ U1 14
+ C1 2
+ U30 9
+ U33 33
+ C7 2
+ C6 2
+ U33 2
+ U33 65
+ U32 8
+ U30 8
+ U29 8
+ U29 9
+ U33 9
+ C2 2
+ U31 9
+ U28 8
+ U31 8
+ R2 2
+ U33 34
+ U28 9
+Net 39 "/X-Achse/CONTROLLER/VREF" "VREF"
+ R1 1
+ U6 20
+ R6 1
+ R1 2
+ C1 1
+ R6 2
+ C17 1
+ U9 12
+ U9 13
+ U1 13
+ U1 12
+Net 40 "/X-Achse/CONTROLLER/B_I0" "B_I0"
+ U9 23
+ U6 30
+Net 41 "/X-Achse/CONTROLLER/B_I1" "B_I1"
+ U6 29
+ U9 24
+Net 42 "/X-Achse/CONTROLLER/B_I2" "B_I2"
+ U9 25
+ U6 28
+Net 43 "/X-Achse/CONTROLLER/A_nFAULT" "A_nFAULT"
+ U1 18
+ U6 17
+Net 44 "/X-Achse/Motor_A/IN1" "IN1"
+ U6 41
+ U1 21
+Net 46 "/Y-Achse/CONTROLLER/A_I4" "A_I4"
+ U19 27
+ U24 21
+Net 47 "/Y-Achse/CONTROLLER/A_I2" "A_I2"
+ U19 25
+ U24 23
+Net 48 "/Y-Achse/CONTROLLER/A_I3" "A_I3"
+ U24 22
+ U19 26
+Net 49 "/Y-Achse/CONTROLLER/A_I1" "A_I1"
+ U19 24
+ U24 24
+Net 50 "/Y-Achse/CONTROLLER/A_I0" "A_I0"
+ U24 25
+ U19 23
+Net 51 "/Y-Achse/CONTROLLER/A_DECAY" "A_DECAY"
+ U19 19
+ U24 16
+Net 52 "/Y-Achse/CONTROLLER/A_nSLEEP" "A_nSLEEP"
+ U19 17
+ U24 18
+Net 53 "/Y-Achse/CONTROLLER/A_RESET" "A_RESET"
+ U19 16
+ U24 19
+Net 55 "/Y-Achse/CONTROLLER/VREF" "VREF"
+ U19 12
+ U24 20
+ C47 1
+ R15 2
+ R15 1
+ U19 13
+ R20 1
+ U27 13
+ U27 12
+ C63 1
+ R20 2
+Net 56 "/Y-Achse/CONTROLLER/A_ISEN" "A_ISEN"
+ R16 1
+ U19 9
+ U19 6
+ C51 1
+ U24 8
+Net 57 "/Y-Achse/CONTROLLER/B_I2" "B_I2"
+ U27 25
+ U24 28
+Net 58 "/Y-Achse/CONTROLLER/A_nFAULT" "A_nFAULT"
+ U24 17
+ U19 18
+Net 59 "/Y-Achse/Motor_B/IN2" "IN2"
+ U24 44
+ U27 20
+Net 60 "/Y-Achse/Motor_B/IN1" "IN1"
+ U24 43
+ U27 21
+Net 61 "/Y-Achse/Motor_A/IN2" "IN2"
+ U19 20
+ U24 42
+Net 62 "/Y-Achse/Motor_A/IN1" "IN1"
+ U24 41
+ U19 21
+Net 63 "/Y-Achse/CONTROLLER/B_I4" "B_I4"
+ U24 26
+ U27 27
+Net 64 "/Y-Achse/CONTROLLER/B_I3" "B_I3"
+ U27 26
+ U24 27
+Net 65 "/Y-Achse/CONTROLLER/B_I1" "B_I1"
+ U24 29
+ U27 24
+Net 66 "/Y-Achse/CONTROLLER/B_I0" "B_I0"
+ U27 23
+ U24 30
+Net 67 "/Y-Achse/CONTROLLER/B_nFAULT" "B_nFAULT"
+ U24 52
+ U27 18
+Net 68 "/Y-Achse/CONTROLLER/B_RESET" "B_RESET"
+ U24 54
+ U27 16
+Net 69 "/Y-Achse/CONTROLLER/B_nSLEEP" "B_nSLEEP"
+ U27 17
+ U24 53
+Net 70 "/Y-Achse/CONTROLLER/B_DECAY" "B_DECAY"
+ U27 19
+ U24 51
+Net 71 "/Y-Achse/CONTROLLER/B_ISEN" "B_ISEN"
+ U24 9
+ R21 1
+ U27 6
+ U27 9
+ C67 1
+Net 72 "/Z-Achse/CONTROLLER/A_I1" "A_I1"
+ U10 24
+ U15 24
+Net 73 "/Z-Achse/CONTROLLER/A_I0" "A_I0"
+ U15 25
+ U10 23
+Net 74 "/Z-Achse/CONTROLLER/A_RESET" "A_RESET"
+ U15 19
+ U10 16
+Net 75 "/Z-Achse/CONTROLLER/A_nSLEEP" "A_nSLEEP"
+ U10 17
+ U15 18
+Net 76 "/Z-Achse/CONTROLLER/A_DECAY" "A_DECAY"
+ U10 19
+ U15 16
+Net 77 "/Z-Achse/CONTROLLER/A_I4" "A_I4"
+ U10 27
+ U15 21
+Net 78 "/Z-Achse/CONTROLLER/A_I3" "A_I3"
+ U15 22
+ U10 26
+Net 79 "/Z-Achse/CONTROLLER/A_I2" "A_I2"
+ U15 23
+ U10 25
+Net 81 "/Z-Achse/CONTROLLER/VREF" "VREF"
+ C40 1
+ U15 20
+ U18 12
+ U18 13
+ U10 13
+ U10 12
+ R8 1
+ R8 2
+ C24 1
+ R13 1
+ R13 2
+Net 82 "/Z-Achse/CONTROLLER/A_ISEN" "A_ISEN"
+ U10 6
+ U10 9
+ U15 8
+ R9 1
+ C28 1
+Net 83 "/Z-Achse/CONTROLLER/B_I0" "B_I0"
+ U18 23
+ U15 30
+Net 84 "/Z-Achse/CONTROLLER/B_I1" "B_I1"
+ U18 24
+ U15 29
+Net 85 "/Z-Achse/CONTROLLER/B_I2" "B_I2"
+ U18 25
+ U15 28
+Net 86 "/Z-Achse/CONTROLLER/A_nFAULT" "A_nFAULT"
+ U15 17
+ U10 18
+Net 87 "/Z-Achse/Motor_B/IN1" "IN1"
+ U15 43
+ U18 21
+Net 88 "/Z-Achse/Motor_A/IN2" "IN2"
+ U10 20
+ U15 42
+Net 89 "/Z-Achse/Motor_A/IN1" "IN1"
+ U10 21
+ U15 41
+Net 90 "/Z-Achse/CONTROLLER/B_I4" "B_I4"
+ U15 26
+ U18 27
+Net 91 "/Z-Achse/CONTROLLER/B_I3" "B_I3"
+ U15 27
+ U18 26
+Net 92 "/Z-Achse/Motor_B/IN2" "IN2"
+ U15 44
+ U18 20
+Net 93 "/Z-Achse/CONTROLLER/B_ISEN" "B_ISEN"
+ U15 9
+ U18 6
+ C44 1
+ R14 1
+ U18 9
+Net 94 "/Z-Achse/CONTROLLER/B_RESET" "B_RESET"
+ U18 16
+ U15 54
+Net 95 "/Z-Achse/CONTROLLER/B_nSLEEP" "B_nSLEEP"
+ U15 53
+ U18 17
+Net 96 "/Z-Achse/CONTROLLER/B_DECAY" "B_DECAY"
+ U18 19
+ U15 51
+Net 97 "/Z-Achse/CONTROLLER/B_nFAULT" "B_nFAULT"
+ U15 52
+ U18 18
+Net 98 "+3.3V" "+3.3V"
+ U20 8
+ U29 7
+ U5 1
+ L3 1
+ U8 8
+ U32 16
+ U16 8
+ U17 8
+ R12 1
+ U11 8
+ U7 8
+ L1 1
+ R10 1
+ U14 1
+ R19 1
+ R5 1
+ L5 1
+ U23 1
+ R17 1
+ U28 7
+ U33 1
+ U25 8
+ U30 7
+ R3 1
+ U31 7
+ U26 8
+ U2 8
+Net 99 "/Sheet522C237E/TIM2_CH2" "TIM2_CH2"
+ U29 16
+ U33 16
+Net 100 "+5V" "+5V"
+ U28 10
+ U29 10
+ U33 66
+ U30 10
+ U31 10
+Net 101 "/Sheet522C237E/SPI1_MISO" "SPI1_MISO"
+ U33 57
+ U29 5
+ U31 5
+ U30 5
+ U28 5
+Net 111 "/Sheet522C237E/DIO9" "DIO9"
+ U32 3
+ U33 31
+Net 112 "/Sheet522C237E/DIO8" "DIO8"
+ U33 30
+ U32 2
+Net 118 "/Sheet522C237E/TIM1_CH1" "TIM1_CH1"
+ U28 16
+ U33 42
+Net 119 "/Sheet522C237E/I2C1_SCL" "I2C1_SCL"
+ U31 12
+ U29 12
+ U33 63
+ U28 12
+ U30 12
+Net 120 "/Sheet522C237E/I2C1_SDA" "I2C1_SDA"
+ U28 11
+ U33 64
+ U29 11
+ U31 11
+ U30 11
+Net 124 "/Sheet522C237E/DIO5" "DIO5"
+ U33 20
+ U30 2
+Net 125 "/Sheet522C237E/DIO3" "DIO3"
+ U33 55
+ U29 2
+Net 126 "/Sheet522C237E/DIO2" "DIO2"
+ U29 15
+ U33 4
+Net 127 "/Sheet522C237E/DIO6" "DIO6"
+ U33 49
+ U31 15
+Net 128 "/Sheet522C237E/TIM3_CH1" "TIM3_CH1"
+ U33 39
+ U31 16
+Net 129 "/Sheet522C237E/DIO1" "DIO1"
+ U28 2
+ U33 29
+Net 130 "/Sheet522C237E/DIO4" "DIO4"
+ U33 19
+ U30 15
+Net 131 "/Sheet522C237E/DIO7" "DIO7"
+ U33 48
+ U31 2
+Net 132 "/Sheet522C237E/TIM3_CH2" "TIM3_CH2"
+ U33 38
+ U30 16
+Net 133 "/Sheet522C237E/DIO0" "DIO0"
+ U33 28
+ U28 15
+Net 138 "/Sheet522C237E/SPI1_NSS" "SPI1_NSS"
+ U32 1
+ U33 51
+Net 139 "/Sheet522C237E/SPI1_MOSI" "SPI1_MOSI"
+ U31 6
+ U28 6
+ U30 6
+ U29 6
+ U33 58
+Net 140 "/Sheet522C237E/SPI1_SCK" "SPI1_SCK"
+ U31 4
+ U33 56
+ U28 4
+ U30 4
+ U29 4
+Net 141 "/Sheet522C237E/USART2_RX" "USART2_RX"
+ U30 14
+ U28 14
+ U29 14
+ U33 18
+ U31 14
+Net 144 "/Sheet522C237E/USART2_TX" "USART2_TX"
+ U29 13
+ U28 13
+ U30 13
+ U33 17
+ U31 13
+Net 160 "" ""
+ C2 1
+ U1 15
+Net 161 "/X-Achse/Motor_A/OUT2" "OUT2"
+ U1 8
+ P1 2
+ U1 7
+Net 162 "/X-Achse/Motor_A/OUT1" "OUT1"
+ U1 10
+ P1 1
+ U1 5
+Net 163 "" ""
+ C3 1
+ U1 3
+Net 164 "" ""
+ U1 1
+ C4 2
+Net 165 "" ""
+ U1 2
+ C4 1
+Net 166 "/X-Achse/CONTROLLER/SWCLK" "SWCLK"
+ U6 49
+ P4 1
+Net 167 "/X-Achse/CONTROLLER/SWDAT" "SWDAT"
+ P4 2
+ U6 46
+Net 170 "" ""
+ U2 1
+ U5 2
+ R3 2
+Net 172 "/X-Achse/CONTROLLER/VBAT" "VBAT"
+ C11 1
+ L1 2
+ C12 1
+ U7 1
+ C14 1
+ C13 1
+ U6 64
+ U6 1
+ L2 1
+ U5 8
+ U6 32
+ U8 1
+ U4 8
+ U3 8
+Net 173 "/X-Achse/CONTROLLER/DIR2" "DIR2"
+ U4 5
+ U6 4
+Net 174 "/X-Achse/CONTROLLER/RS458_TX" "RS458_TX"
+ U2 4
+ U6 58
+Net 175 "/X-Achse/CONTROLLER/RS458_RX" "RS458_RX"
+ U5 7
+ U6 59
+Net 180 "/X-Achse/CONTROLLER/nRESET" "nRESET"
+ U6 7
+ P4 3
+ R5 2
+ C8 1
+Net 182 "" ""
+ C10 2
+ U6 6
+ X1 1
+Net 183 "" ""
+ X1 2
+ C9 2
+ U6 5
+Net 187 "" ""
+ P2 4
+ U3 1
+Net 188 "" ""
+ P3 4
+ U4 1
+Net 189 "/X-Achse/CONTROLLER/DIR1" "DIR1"
+ U3 5
+ U6 3
+Net 190 "/X-Achse/CONTROLLER/ENC2_B" "ENC2_B"
+ U6 38
+ U4 6
+Net 191 "/X-Achse/CONTROLLER/ENC2_A" "ENC2_A"
+ U6 37
+ U4 7
+Net 192 "/X-Achse/CONTROLLER/ENC1_B" "ENC1_B"
+ U3 6
+ U6 15
+Net 193 "/X-Achse/CONTROLLER/ENC1_A" "ENC1_A"
+ U3 7
+ U6 14
+Net 194 "" ""
+ U4 2
+ P3 3
+Net 195 "" ""
+ U4 3
+ P3 2
+Net 196 "" ""
+ U3 3
+ P2 2
+Net 197 "" ""
+ P2 3
+ U3 2
+Net 199 "/X-Achse/CONTROLLER/RS458_DE" "RS458_DE"
+ U6 45
+ R4 1
+ U2 2
+ U2 3
+Net 201 "/X-Achse/CONTROLLER/VDDA" "VDDA"
+ C15 1
+ L2 2
+ U6 13
+ C16 1
+Net 202 "" ""
+ C18 1
+ U9 15
+Net 203 "" ""
+ C20 1
+ U9 2
+Net 204 "" ""
+ C20 2
+ U9 1
+Net 205 "" ""
+ U9 3
+ C19 1
+Net 206 "/X-Achse/Motor_B/OUT1" "OUT1"
+ U9 10
+ U9 5
+ P5 1
+Net 207 "/X-Achse/Motor_B/OUT2" "OUT2"
+ P5 2
+ U9 8
+ U9 7
+Net 209 "/Y-Achse/Motor_A/OUT2" "OUT2"
+ P11 2
+ U19 8
+ U19 7
+Net 210 "/Y-Achse/Motor_A/OUT1" "OUT1"
+ U19 5
+ P11 1
+ U19 10
+Net 211 "" ""
+ U19 2
+ C50 1
+Net 212 "" ""
+ U19 15
+ C48 1
+Net 214 "" ""
+ U19 3
+ C49 1
+Net 215 "" ""
+ U19 1
+ C50 2
+Net 216 "/Y-Achse/CONTROLLER/nRESET" "nRESET"
+ R19 2
+ C54 1
+ U24 7
+ P14 3
+Net 217 "/Y-Achse/CONTROLLER/SWDAT" "SWDAT"
+ U24 46
+ P14 2
+Net 218 "/Y-Achse/CONTROLLER/SWCLK" "SWCLK"
+ P14 1
+ U24 49
+Net 219 "/Y-Achse/CONTROLLER/RS458_DE" "RS458_DE"
+ R18 1
+ U20 3
+ U20 2
+ U24 45
+Net 220 "/Y-Achse/CONTROLLER/RS458_RX" "RS458_RX"
+ U24 59
+ U23 7
+Net 221 "/Y-Achse/CONTROLLER/RS458_TX" "RS458_TX"
+ U24 58
+ U20 4
+Net 222 "/Y-Achse/CONTROLLER/DIR1" "DIR1"
+ U24 3
+ U21 5
+Net 223 "/Y-Achse/CONTROLLER/DIR2" "DIR2"
+ U24 4
+ U22 5
+Net 224 "/Y-Achse/CONTROLLER/VBAT" "VBAT"
+ C57 1
+ U24 32
+ U23 8
+ U21 8
+ U22 8
+ U26 1
+ U25 1
+ C60 1
+ L5 2
+ L6 1
+ U24 1
+ U24 64
+ C58 1
+ C59 1
+Net 228 "/Y-Achse/CONTROLLER/VDDA" "VDDA"
+ L6 2
+ C61 1
+ C62 1
+ U24 13
+Net 236 "" ""
+ P12 4
+ U21 1
+Net 237 "" ""
+ U21 2
+ P12 3
+Net 238 "" ""
+ U21 3
+ P12 2
+Net 239 "" ""
+ U22 1
+ P13 4
+Net 240 "/Y-Achse/CONTROLLER/ENC1_B" "ENC1_B"
+ U21 6
+ U24 15
+Net 241 "/Y-Achse/CONTROLLER/ENC1_A" "ENC1_A"
+ U24 14
+ U21 7
+Net 242 "/Y-Achse/CONTROLLER/ENC2_A" "ENC2_A"
+ U24 37
+ U22 7
+Net 243 "/Y-Achse/CONTROLLER/ENC2_B" "ENC2_B"
+ U24 38
+ U22 6
+Net 244 "" ""
+ P13 2
+ U22 3
+Net 245 "" ""
+ U22 2
+ P13 3
+Net 246 "" ""
+ U20 1
+ R17 2
+ U23 2
+Net 250 "" ""
+ X3 1
+ U24 6
+ C56 2
+Net 251 "" ""
+ U24 5
+ X3 2
+ C55 2
+Net 252 "" ""
+ U27 2
+ C66 1
+Net 253 "" ""
+ U27 1
+ C66 2
+Net 254 "" ""
+ U27 15
+ C64 1
+Net 255 "" ""
+ U27 3
+ C65 1
+Net 256 "/Y-Achse/Motor_B/OUT2" "OUT2"
+ U27 7
+ U27 8
+ P15 2
+Net 257 "/Y-Achse/Motor_B/OUT1" "OUT1"
+ U27 10
+ P15 1
+ U27 5
+Net 259 "" ""
+ U10 15
+ C25 1
+Net 260 "" ""
+ U10 1
+ C27 2
+Net 261 "" ""
+ C27 1
+ U10 2
+Net 262 "" ""
+ U10 3
+ C26 1
+Net 264 "/Z-Achse/Motor_A/OUT1" "OUT1"
+ P6 1
+ U10 5
+ U10 10
+Net 265 "/Z-Achse/Motor_A/OUT2" "OUT2"
+ P6 2
+ U10 7
+ U10 8
+Net 269 "/Z-Achse/CONTROLLER/nRESET" "nRESET"
+ P9 3
+ C31 1
+ U15 7
+ R12 2
+Net 270 "" ""
+ X2 2
+ U15 5
+ C32 2
+Net 271 "/Z-Achse/CONTROLLER/VBAT" "VBAT"
+ U17 1
+ C37 1
+ C34 1
+ U14 8
+ C35 1
+ C36 1
+ L4 1
+ U12 8
+ U15 1
+ U15 32
+ U16 1
+ U13 8
+ L3 2
+ U15 64
+Net 272 "/Z-Achse/CONTROLLER/RS458_TX" "RS458_TX"
+ U11 4
+ U15 58
+Net 273 "/Z-Achse/CONTROLLER/RS458_RX" "RS458_RX"
+ U15 59
+ U14 7
+Net 274 "" ""
+ U15 6
+ X2 1
+ C33 2
+Net 275 "" ""
+ P7 2
+ U12 3
+Net 276 "" ""
+ U12 2
+ P7 3
+Net 277 "" ""
+ U12 1
+ P7 4
+Net 278 "" ""
+ P8 4
+ U13 1
+Net 279 "/Z-Achse/CONTROLLER/ENC1_B" "ENC1_B"
+ U12 6
+ U15 15
+Net 280 "/Z-Achse/CONTROLLER/ENC1_A" "ENC1_A"
+ U15 14
+ U12 7
+Net 281 "/Z-Achse/CONTROLLER/ENC2_A" "ENC2_A"
+ U13 7
+ U15 37
+Net 282 "/Z-Achse/CONTROLLER/ENC2_B" "ENC2_B"
+ U13 6
+ U15 38
+Net 283 "" ""
+ U13 3
+ P8 2
+Net 284 "" ""
+ P8 3
+ U13 2
+Net 285 "/Z-Achse/CONTROLLER/DIR2" "DIR2"
+ U15 4
+ U13 5
+Net 286 "/Z-Achse/CONTROLLER/DIR1" "DIR1"
+ U15 3
+ U12 5
+Net 292 "/Z-Achse/CONTROLLER/RS458_DE" "RS458_DE"
+ U11 2
+ U15 45
+ U11 3
+ R11 1
+Net 293 "/Z-Achse/CONTROLLER/SWCLK" "SWCLK"
+ U15 49
+ P9 1
+Net 294 "/Z-Achse/CONTROLLER/SWDAT" "SWDAT"
+ U15 46
+ P9 2
+Net 298 "" ""
+ R10 2
+ U14 2
+ U11 1
+Net 301 "/Z-Achse/CONTROLLER/VDDA" "VDDA"
+ L4 2
+ C38 1
+ C39 1
+ U15 13
+Net 302 "" ""
+ C42 1
+ U18 3
+Net 303 "" ""
+ U18 2
+ C43 1
+Net 304 "/Z-Achse/Motor_B/OUT2" "OUT2"
+ U18 8
+ U18 7
+ P10 2
+Net 305 "/Z-Achse/Motor_B/OUT1" "OUT1"
+ U18 5
+ P10 1
+ U18 10
+Net 306 "" ""
+ U18 1
+ C43 2
+Net 307 "" ""
+ U18 15
+ C41 1
+}
+#End
